@@ -1,0 +1,77 @@
+:root {
+  scroll-behavior: smooth;
+}
+.style {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    color: #010101;
+  }
+  
+/* Reset */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+textarea::placeholder {
+  font-family: inherit;
+}
+
+input,
+textarea {
+  outline: transparent;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: transparent;
+}
+
+input:-webkit-autofill {
+  transition: all 5000s ease-in-out;
+}
+
+button,
+a {
+  outline: none;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  letter-spacing: 0.5px;
+}
+
+li {
+  list-style-type: none;
+}
+body {
+  background-color: #e1e7ef;
+}
+
+
