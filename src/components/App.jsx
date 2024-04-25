@@ -4,7 +4,7 @@ import {Profile} from "./Profile/Profile.jsx"
 function App() {
  return (
   <div>
-   <Profile name={"Vite"}/>
+   <Profile name="Vite"/>
   </div>
   );
 }
