@@ -1,63 +1,62 @@
 .transaction_history {
-    width: 900px;
-    border-collapse: collapse;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
-  }
-  
-  .header {
-    font-size: 20px;
-    color: #ffffff;
-    text-transform: uppercase;
-  }
-  
-  .header th {
-    width: 300px;
-    padding: 12px 4px;
-    border-left: 1px solid #d9dfe2;
-    background-color: #2db0cb;
-  }
-  
-  .body {
-    color: #7e8289;
-    font-size: 16px;
-    background-color: #ffffff;
-  }
-  
-  .body > :nth-child(odd) {
-    background-color: #e7edf1;
-  }
-  
-  .transaction_history tr {
-    border-bottom: 1px solid #d9dfe2;
-  }
-  
-  .header th:first-child {
-    border-top-left-radius: 6px;
-    border-left: unset;
-  }
-  
-  .header th:last-child {
-    border-top-right-radius: 4px;
-  }
-  
-  .body > :last-child > :first-child {
-    border-bottom-left-radius: 6px;
-  }
-  
-  .body > :last-child > :last-child {
-    border-bottom-right-radius: 4px;
-  }
-  
-  .body td {
-    padding: 12px 4px;
-    text-align: center;
-    border-left: 1px solid #d9dfe2;
-    text-transform: capitalize;
-  }
-  
-  .header tr {
-    border-bottom: unset;
-  }
-  
+  width: 900px;
+  border-collapse: collapse;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.header th {
+  width: 300px;
+  padding: 12px 4px;
+  border-left: 1px solid #d9dfe2;
+  background-color: #2db0cb;
+}
+
+.body {
+  color: #7e8289;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.body > :nth-child(odd) {
+  background-color: #e7edf1;
+}
+
+.transaction_history tr {
+  border-bottom: 1px solid #d9dfe2;
+}
+
+.header th:first-child {
+  border-top-left-radius: 6px;
+  border-left: unset;
+}
+
+.header th:last-child {
+  border-top-right-radius: 4px;
+}
+
+.body > :last-child > :first-child {
+  border-bottom-left-radius: 6px;
+}
+
+.body > :last-child > :last-child {
+  border-bottom-right-radius: 4px;
+}
+
+.body td {
+  padding: 12px 4px;
+  text-align: center;
+  border-left: 1px solid #d9dfe2;
+  text-transform: capitalize;
+}
+
+.header tr {
+  border-bottom: unset;
+}
